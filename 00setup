@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -eux
+
+python3 -m venv working
+
+. working/bin/activate
+pip3 update pip
+pip3 install flask pyroute2 flask-cors
+

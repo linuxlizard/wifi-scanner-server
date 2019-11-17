@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -eux
+
+FLASK_APP=flaskr FLASK_ENV=development flask run
+
